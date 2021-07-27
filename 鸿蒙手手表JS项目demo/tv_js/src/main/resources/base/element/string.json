@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "智慧屏-代办"
+    },
+    {
+      "name": "ab_label",
+      "value": "智慧屏-代办 label"
+    },
+    {
+      "name": "ab_desc",
+      "value": "智慧屏-代办 desc"
+    }
+  ]
+}

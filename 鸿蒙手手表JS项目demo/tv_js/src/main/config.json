@@ -1,0 +1,70 @@
+{
+  "app": {
+    "bundleName": "cn.bingoogolapple.harmonyosnote.tv.js",
+    "vendor": "bingoogolapple",
+    "version": {
+      "code": 100,
+      "name": "1.0.0"
+    },
+    "apiVersion": {
+      "compatible": 4,
+      "target": 5,
+      "releaseType": "Release"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "tv_js",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": "cn.bingoogolapple.harmonyosnote.tv.js.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:ab_desc",
+        "label": "$string:ab_label",
+        "type": "page",
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "landscape",
+        "visible": true,
+        "formEnabled": false,
+        "launchType": "standard",
+        "permissions": []
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/add-todo/add-todo",
+          "pages/todo-detail/todo-detail",
+          "pages/api/api"
+        ],
+        "name": "default",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        }
+      }
+    ],
+    "package": "cn.bingoogolapple.harmonyosnote.tv.js",
+    "name": ".TvJs",
+    "reqCapabilities": [
+      "video_support"
+    ]
+  }
+}

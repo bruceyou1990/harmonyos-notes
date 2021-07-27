@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "智能穿戴-代办"
+    },
+    {
+      "name": "ab_label",
+      "value": "智能穿戴-代办 label"
+    },
+    {
+      "name": "ab_desc",
+      "value": "智能穿戴-代办 desc"
+    }
+  ]
+}

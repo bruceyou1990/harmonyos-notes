@@ -1,0 +1,27 @@
+{
+  "app": {
+    "bundleName": "cn.bingoogolapple.harmonyosnote.tv.hos.lib",
+    "vendor": "bingoogolapple",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 4,
+      "target": 5,
+      "releaseType": "Release"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "cn.bingoogolapple.harmonyosnote.tv.hos.lib",
+    "deviceType": [
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "tv_hos_lib",
+      "moduleType": "har"
+    }
+  }
+}
